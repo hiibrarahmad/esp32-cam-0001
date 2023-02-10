@@ -32,7 +32,7 @@
  *  FOR NETWORK AND HARDWARE SETTINGS COPY OR RENAME 'myconfig.sample.h' TO 'myconfig.h' AND EDIT THAT.
  *
  * By default this sketch will assume an AI-THINKER ESP-CAM and create
- * an accesspoint called "ESP32-CAM-CONNECT" (password: "InsecurePassword")
+ * an accesspoint called "ibrarcam" (password: "ibrarahmad")
  *
  */
 
@@ -45,7 +45,7 @@
     #define WIFI_AP_ENABLE
     #define CAMERA_MODEL_AI_THINKER
     struct station { const char ssid[65]; const char password[65]; const bool dhcp;}
-    stationList[] = {{"ESP32-CAM-CONNECT","InsecurePassword", true}};
+    stationList[] = {{"ibrarcam","ibrarahmad", true}};
 #endif
 
 // Upstream version string
